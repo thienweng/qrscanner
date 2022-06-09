@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="10dp"
-    tools:context=".MainActivity">
+    tools:context=".crud">
     <TextView
         android:id="@+id/texttitle"
         android:layout_width="match_parent"
@@ -67,4 +67,12 @@
         android:textSize="24dp"
         android:text="View Data"
         android:layout_below="@id/btnDelete"/>
+
+    <Button
+        android:id="@+id/qrscan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:text="QR Scan"
+        android:layout_below="@id/btnView"/>
 </RelativeLayout>
